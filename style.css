@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.column-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    margin-top: 5%;
+    background-color: grey;
+    margin-left: 0;
+    height: 70vh;
+   
+}
+
+.column-grid .grid-item {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.icon-collection{
+    
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 3%;  
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    /* border: solid 1px;*/
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+} 
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right,pink,rgb(255, 255, 255));
+}
+
+.icon:hover .brand{
+    color: gray;
+    animation: rotate 2s;
+}
+
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.cofee{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 25%;
+}
+
+.border{
+    color: black;
+}
